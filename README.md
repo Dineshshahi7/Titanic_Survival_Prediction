@@ -1,17 +1,17 @@
 # Titanic Survival Prediction using Machine Learning
 
-# Project Overview
+## Project Overview
 This project predicts whether a passenger survived the Titanic shipwreck using machine learning. It uses the classic **Titanic dataset** from Kaggle and demonstrates a full machine learning workflow including data preprocessing, exploratory analysis, feature engineering, and model training. :contentReference[oaicite:1]{index=1}
 
 ---
 
-# Problem Statement
+## Problem Statement
 Passenger survival on the Titanic depended on multiple factors such as age, gender, class, and family relationships.  
 The goal of this project is to build predictive models that can accurately determine **whether a passenger survived or not** based on these attributes.
 
 ---
 
-# Dataset Description
+## Dataset Description
 The dataset contains passenger information including:
 - **PassengerId** – Unique ID for each passenger  
 - **Survived** – Target variable (0 = No, 1 = Yes)  
@@ -24,7 +24,7 @@ This dataset is widely used for beginner to intermediate machine learning projec
 
 ---
 
-# Tools & Technologies Used
+## Tools & Technologies Used
 - Python  
 - Pandas & NumPy  
 - Scikit-learn  
@@ -33,7 +33,7 @@ This dataset is widely used for beginner to intermediate machine learning projec
 
 ---
 
-# Data Preprocessing
+## Data Preprocessing
 Before training models, the following steps are performed:
 - Handling missing values (e.g., Age, Cabin, Embarked)
 - Encoding categorical features (e.g., Sex, Embarked)
@@ -44,7 +44,7 @@ These steps help improve model performance and data quality. :contentReference[o
 
 ---
 
-# Machine Learning Models Used
+## Machine Learning Models Used
 The following models are typically trained and evaluated:
 - **Logistic Regression**  
 - **Decision Tree**  
@@ -54,7 +54,7 @@ Among these, **Random Forest** usually achieves strong performance on this datas
 
 ---
 
-# Model Evaluation
+## Model Evaluation
 Models are evaluated using metrics like:
 - Accuracy  
 - Confusion matrix  
@@ -64,7 +64,7 @@ The goal is to find the best model for survival prediction with reliable perform
 
 ---
 
-# Key Insights
+## Key Insights
 - **Women and children** had significantly higher survival rates than men. :contentReference[oaicite:6]{index=6}  
 - **Passenger class** influenced survival: upper classes survived more. :contentReference[oaicite:7]{index=7}  
 - **Feature engineering** such as extracting titles (Mr, Mrs, etc.) and family size helped improve model performance. :contentReference[oaicite:8]{index=8}  
@@ -74,7 +74,7 @@ These insights align with historical and analytical patterns found in the Titani
 
 ---
 
-# How to Run the Project
+## How to Run the Project
 This project has been deployed as an interactive web application using Hugging Face Spaces.
 
 You can directly access and test the model here:
